@@ -1,0 +1,20 @@
+BEGIN Step 7 Program
+
+  Function perform_step_seven_prayer()
+    - Say the Step Seven Prayer:
+      "My Creator,
+      I am now willing that you should have all of me, good and bad.
+      I pray that you now remove from me every single defect of character
+      which stands in the way of my usefulness to you and my fellows.
+      Grant me strength, as I go out from here, to do your bidding. Amen."
+
+  PROCEDURE Main
+    - IF Step 6 is completed
+      - Call perform_step_seven_prayer()
+      - Print "Step 7 completed."
+    ELSE
+      - Print "Complete Step 6 before proceeding to Step 7."
+
+  END PROCEDURE Main
+
+END Step 7 Program
