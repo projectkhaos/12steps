@@ -1,0 +1,37 @@
+BEGIN Step 9 Program
+
+  Function sort_harms_by_priority(harms_list)
+    - Create an empty list called sorted_harms
+    - Sort harms_list by priority (e.g., severity, urgency, or personal significance)
+    - Add sorted harms to sorted_harms
+    - Return sorted_harms
+
+  Function create_amends_plan(sorted_harms)
+    - Create an empty list called amends_plan
+    - For each harm in sorted_harms
+      - Determine the appropriate way to make amends
+      - Add amends action to amends_plan
+    - Return amends_plan
+
+  Function make_amends(amends_plan)
+    - For each amend_action in amends_plan
+      - If amend_action can be made without causing further harm
+        - Make the amend
+        - Mark amend_action as "completed"
+      - Else
+        - Pray for guidance and wisdom
+        - Reevaluate amend_action
+
+  PROCEDURE Main
+    - sorted_harms = Call sort_harms_by_priority(harms_list)
+    - amends_plan = Call create_amends_plan(sorted_harms)
+    - Call make_amends(amends_plan)
+
+    IF all amend_actions in amends_plan are marked as "completed"
+      - Print "Step 9 completed."
+    ELSE
+      - Print "Continue to work on amends and reevaluate."
+
+  END PROCEDURE Main
+
+END Step 9 Program
