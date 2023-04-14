@@ -1,0 +1,38 @@
+BEGIN Step 6 Program
+
+  Function prepare_for_step6()
+    - Find a quiet place for an hour
+    - Review previous work done in Steps 1-5
+    - Thank God for better understanding
+
+  Function read_twelve_steps()
+    - Take the book containing the twelve steps
+    - Turn to the page with the twelve steps
+    - Read the first five steps carefully
+    - Check if anything has been omitted
+
+  Function evaluate_progress()
+    - Assess if the work so far is solid
+    - Check if the stones are properly in place
+    - Ensure that the foundation has not been compromised
+    - Make sure the mortar is strong
+
+  Function assess_willingness(step6_results)
+    - For each objectionable item in step6_results
+      - If still clinging to the item
+        - Ask God for help to be willing to let go
+
+  PROCEDURE Main
+    - Call prepare_for_step6()
+    - Call read_twelve_steps()
+    - satisfactory_work = Call evaluate_progress()
+    IF satisfactory_work
+      - step6_results = Obtain a list of objectionable items from Steps 1-5
+      - Call assess_willingness(step6_results)
+      - Print "Step 6 completed."
+    ELSE
+      - Print "Revisit previous steps and ensure completeness."
+
+  END PROCEDURE Main
+
+END Step 6 Program
