@@ -1,0 +1,41 @@
+Step 1: Initialize service tracking variables
+    - AA_service
+    - Non_AA_service
+
+Step 2: Track AA service activities
+    - Record weekly service within AA, including:
+        * Talking to newcomers
+        * Talking to peers
+        * Attending meetings
+        * Group level service
+        * Service within AA structure (Intergroup, Region, etc.)
+        * Other service within AA
+    
+    FOR each service activity in AA_service:
+        - Log details (number of people, means of communication, time spent, lessons learned)
+
+Step 3: Reflect on AA service activities
+    - Review AA_service with Higher Power
+    - Ask: 
+        * What more could I do?
+        * What could I do better/differently?
+        * What could I do instead?
+
+Step 4: Track non-AA service activities
+    - Record weekly service outside AA, focusing on:
+        * Family
+        * Work/volunteering/study
+        * Friends
+        * Community
+        * Society
+    
+    FOR each service activity in Non_AA_service:
+        - Log details (number of people, means of communication, time spent, lessons learned)
+
+Step 5: Reflect on non-AA service activities
+    - Review Non_AA_service with Higher Power
+    - Ask:
+        * What more could I do?
+        * What could I do better?
+        * What could I do differently?
+        * What could I do instead?
