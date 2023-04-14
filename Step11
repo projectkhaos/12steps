@@ -1,0 +1,105 @@
+function stepEleven():
+    if have_carefully_followed_directions:
+        sense_flow_of_Gods_Spirit()
+        become_God_conscious()
+        develop_sixth_sense()
+
+    prayer_and_meditation()
+
+    if not shy_on_prayer:
+        use_prayer_constantly()
+
+    if proper_attitude and work_at_prayer:
+        prayer_works()
+
+    construct_review_of_day()
+    
+    if not night:
+        perform_review_at_other_times()
+
+    communion_with_God()
+    
+    if writing_down_answers_helps:
+        write_answers()
+
+    if writing_down_corrective_measures_helps:
+        write_corrective_measures()
+
+    constructive_review()
+
+    for situation in situations:
+        if resentful:
+            withdraw_demand()
+            forgive_person()
+        
+        if selfish_or_dishonest:
+            make_plan_to_set_right()
+        
+        if afraid:
+            identify_required_action()
+            plan_to_take_action()
+            withdraw_attachment_to_outcome()
+            turn_situation_over_to_God()
+
+    if need_deeper_analysis:
+        use_Step_Four_instructions()
+
+    if owe_apology:
+        make_note_of_apology()
+        schedule_conversation()
+
+    if need_to_discuss_with_another_person:
+        make_note_of_topic()
+        schedule_conversation()
+
+    if kind_and_loving_toward_all:
+        make_simple_list_of_examples()
+
+    if could_have_done_better:
+        be_specific()
+
+    if thinking_of_what_we_can_do_for_others_and_what_we_can_pack_into_stream_of_life:
+        practice_these_ideals()
+
+    avoid_worry_remmorse_morbid_reflection()
+    ask_Gods_forgiveness()
+    inquire_corrective_measures()
+
+    think_about_24_hours_ahead()
+    consider_plans_for_day()
+    ask_God_to_direct_thinking()
+    use_brains_given_by_God()
+    clear_thinking_of_wrong_motives()
+
+    if face_indecision:
+        ask_God_for_inspiration()
+        ask_God_for_intuitive_thought()
+        ask_God_for_decision()
+
+    relax_and_take_it_easy()
+
+    if not_inspired_at_all_times:
+        accept_inexperience_and_recent_conscious_contact_with_God()
+
+    if rely_on_inspiration:
+        follow_Step_Eleven_promises()
+
+    prayer_for_next_step_and_care_of_problems()
+    prayer_for_freedom_from_self_will()
+
+    if asking_for_self_will_help_others:
+        ask_for_self()
+
+    avoid_praying_for_selfish_ends()
+
+    if belong_to_religious_denomination:
+        attend_morning_devotion()
+        select_and_memorize_set_prayers()
+
+    learn_from_religious_people_and_traditions()
+
+    during_day():
+        if agitated_or_doubtful:
+            pause_and_ask_for_right_thought_or_action()
+            remind_self_of_Gods_will()
+            say_humbly("Thy will be done")
