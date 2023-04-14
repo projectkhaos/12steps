@@ -1,0 +1,37 @@
+BEGIN Step 8 Program
+
+  Function compile_list_of_harms()
+    - Create an empty list called harms_list
+    - Review personal history
+    - Identify people harmed
+    - For each person harmed
+      - Add person and details of harm to harms_list
+    - Return harms_list
+
+  Function assess_willingness_to_make_amends(harms_list)
+    - For each harm in harms_list
+      - If unwilling to make amends for the harm
+        - Tag harm as "unwilling"
+        - Ask God for help to be willing to make amends
+      - Else
+        - Tag harm as "willing"
+
+  Function update_harms_list(harms_list)
+    - For each harm tagged as "unwilling"
+      - If willingness has been granted by God
+        - Update harm tag to "willing"
+    - Return updated harms_list
+
+  PROCEDURE Main
+    - harms_list = Call compile_list_of_harms()
+    - Call assess_willingness_to_make_amends(harms_list)
+    - updated_harms_list = Call update_harms_list(harms_list)
+
+    IF all harms in updated_harms_list are tagged as "willing"
+      - Print "Step 8 completed."
+    ELSE
+      - Print "Continue to pray for willingness and reevaluate."
+
+  END PROCEDURE Main
+
+END Step 8 Program
