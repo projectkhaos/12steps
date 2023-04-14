@@ -1,0 +1,43 @@
+def step_four_inventory(resentments, fears):
+    def self_seeking_actions(resentment):
+        # Analyze and return the self-seeking actions related to the resentment
+        pass
+
+    def selfish_attitudes(resentment):
+        # Analyze and return the selfish attitudes related to the resentment
+        pass
+
+    def dishonesty(resentment):
+        # Analyze and return the dishonest thoughts related to the resentment
+        pass
+
+    def fears_behind_delusions(resentment):
+        # Analyze and return the fears behind the delusions related to the resentment
+        pass
+
+    def harms_caused(resentment):
+        # Analyze and return the harms caused related to the resentment
+        pass
+
+    step4_results = []
+
+    for resentment in resentments:
+        realization = "How have I done the things I've resented in Column 2 to the person I've listed in Column 1 and/or others?"
+
+        self_seeking = self_seeking_actions(resentment)
+        selfish = selfish_attitudes(resentment)
+        dishonest = dishonesty(resentment)
+        fears_related = fears_behind_delusions(resentment)
+        harms = harms_caused(resentment)
+
+        step4_results.append({
+            "resentment": resentment,
+            "realization": realization,
+            "self_seeking": self_seeking,
+            "selfish": selfish,
+            "dishonest": dishonest,
+            "fears": fears_related,
+            "harms": harms
+        })
+
+    return step4_results
