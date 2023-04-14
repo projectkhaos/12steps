@@ -1,0 +1,20 @@
+2. BelieveHigherPower()
+
+FUNCTION BelieveHigherPower(step1_result):
+    IF step1_result == "Admitted we were powerless over alcohol - that our lives had become unmanageable":
+        higherPowerBeliefScore = 0
+        
+        FOR eachHigherPowerAspect in higherPowerAspects:
+            IF openTo(eachHigherPowerAspect):
+                higherPowerBeliefScore = higherPowerBeliefScore + 1
+            ELSE:
+                CONTINUE
+        
+        IF higherPowerBeliefScore >= threshold_3:
+            RETURN "Came to believe that a Power greater than ourselves could restore us to sanity"
+        ELSE:
+            RETURN "Step 2 not completed, need to work on openness to a Higher Power"
+    ELSE:
+        RETURN "Step 1 not completed, cannot proceed to Step 2"
+
+*Note: `threshold_3` is a predefined value to determine if the person is open enough to believe in a Higher Power. The specific value should be determined based on individual circumstances and personal reflection.
