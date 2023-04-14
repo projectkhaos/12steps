@@ -1,0 +1,49 @@
+class StepFive:
+    def __init__(self, step4_results):
+        self.step4_results = step4_results
+
+    def admit_to_self(self):
+        for result in self.step4_results:
+            print(f"Admitting to self: {result['resentment']} - {result['realization']}")
+
+    def admit_to_another(self, confidant):
+        for result in self.step4_results:
+            print(f"Admitting to {confidant}: {result['resentment']} - {result['realization']}")
+
+    def admit_to_higher_power(self, higher_power):
+        for result in self.step4_results:
+            print(f"Admitting to {higher_power}: {result['resentment']} - {result['realization']}")
+
+    def additional_admissions(self, confidant, untold_secrets, dark_twists):
+        print(f"Admitting to {confidant} untold secrets:")
+        for secret in untold_secrets:
+            print(f"- {secret}")
+
+        print(f"Admitting to {confidant} dark twists of character:")
+        for twist in dark_twists:
+            print(f"- {twist}")
+
+    def perform_step_five(self, confidant, higher_power, untold_secrets, dark_twists):
+        self.admit_to_self()
+        self.admit_to_another(confidant)
+        self.admit_to_higher_power(higher_power)
+        self.additional_admissions(confidant, untold_secrets, dark_twists)
+        print("Step 5 completed.")
+
+
+step4_results = step_four_inventory(resentments, fears)
+step_five = StepFive(step4_results)
+
+untold_secrets = [
+    "Secret 1",
+    "Secret 2",
+    "Secret 3",
+]
+
+dark_twists = [
+    "Dark twist of character 1",
+    "Dark twist of character 2",
+    "Dark twist of character 3",
+]
+
+step_five.perform_step_five(confidant="John", higher_power="God", untold_secrets=untold_secrets, dark_twists=dark_twists)
