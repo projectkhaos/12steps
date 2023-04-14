@@ -1,0 +1,31 @@
+3. DecisionToTurn()
+
+FUNCTION DecisionToTurn(step1_result, step2_result):
+    IF step1_result == "Admitted we were powerless over alcohol - that our lives had become unmanageable" AND step2_result == "Came to believe that a Power greater than ourselves could restore us to sanity":
+        surrenderScore = 0
+        willingnessScore = 0
+
+        FOR eachSurrenderAspect in surrenderAspects:
+            IF willingToSurrender(eachSurrenderAspect):
+                surrenderScore = surrenderScore + 1
+            ELSE:
+                CONTINUE
+
+        FOR eachWillingnessAspect in willingnessAspects:
+            IF willingToChange(eachWillingnessAspect):
+                willingnessScore = willingnessScore + 1
+            ELSE:
+                CONTINUE
+
+        IF surrenderScore >= threshold_4 AND willingnessScore >= threshold_5:
+            RETURN "Made a decision to turn our will and our lives over to the care of God as we understood Him"
+        ELSE IF surrenderScore < threshold_4 AND willingnessScore >= threshold_5:
+            RETURN "Need to work on surrendering to a Higher Power"
+        ELSE IF surrenderScore >= threshold_4 AND willingnessScore < threshold_5:
+            RETURN "Need to work on willingness to change"
+        ELSE:
+            RETURN "Need to work on both surrendering to a Higher Power and willingness to change"
+    ELSE:
+        RETURN "Step 1 and/or Step 2 not completed, cannot proceed to Step 3"
+
+*Note: `threshold_4` and `threshold_5` are predefined values to determine if the person is willing to surrender to a Higher Power and if they are willing to change. The specific values should be determined based on individual circumstances and personal reflection.
