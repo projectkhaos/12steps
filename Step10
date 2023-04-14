@@ -1,0 +1,30 @@
+BEGIN Step 10 Program
+
+  Function watch_for_selfishness_dishonesty_resentment_fear()
+    - Continuously monitor thoughts and emotions
+    - If selfishness, dishonesty, resentment, or fear are detected
+      - Ask God to remove them immediately
+      - Discuss the issue with someone if necessary
+      - Make amends if harm has been caused
+
+  Function grow_in_understanding_and_effectiveness()
+    - Observe actions and their outcomes
+    - Determine what works and what does not
+    - Ask God for guidance to improve and achieve goals
+    - Be patient and commit to continuous growth
+
+  Function practice_love_and_tolerance()
+    - Treat others as children of God
+    - Recognize that faults in others may be due to ignorance, not malice
+    - Refrain from attacking or fighting others
+    - Stand firm for what is right, but do so with love and understanding
+
+  PROCEDURE Main
+    - WHILE living the daily life
+      - Call watch_for_selfishness_dishonesty_resentment_fear()
+      - Call grow_in_understanding_and_effectiveness()
+      - Call practice_love_and_tolerance()
+
+  END PROCEDURE Main
+
+END Step 10 Program
