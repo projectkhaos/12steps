@@ -1,0 +1,94 @@
+BEGIN PROGRAM
+
+INITIALIZE spiritualCondition = "maintained"
+INITIALIZE dailyReprieve = TRUE
+
+FUNCTION performStep(number, actions):
+    IF number IN [1, 2, 3, 4, 5, 6, 7, 8, 9]:
+        EXECUTE actions
+        RETURN TRUE
+    ELSE:
+        RETURN FALSE
+
+FUNCTION checkForIssues():
+    CREATE LIST issues = ["selfishness", "dishonesty", "resentment", "fear"]
+    FOR issue IN issues:
+        IF issue EXISTS:
+            RETURN issue
+    RETURN NULL
+
+FUNCTION askGodToRemove(issue):
+    REQUEST God TO REMOVE issue
+
+FUNCTION discussWithSomeone(issue):
+    SHARE issue WITH trustedPerson
+
+FUNCTION makeAmendsIfHarmedAnyone():
+    IF harmedAnyone:
+        APOLOGIZE TO harmedPerson
+        TAKE correctiveMeasures
+
+FUNCTION turnThoughtsToHelp():
+    FOCUS ON helpingOthers
+
+FUNCTION maintainSpiritualCondition():
+    CONTINUE spiritualPractice
+    IF spiritualCondition == "maintained":
+        RETURN dailyReprieve
+    ELSE:
+        RETURN FALSE
+
+FUNCTION reviewDay():
+    REFLECT ON actions, thoughts, and feelings
+    EVALUATE performance
+    IDENTIFY areasForImprovement
+    ASK God FOR forgiveness
+    INQUIRE correctiveMeasures
+
+FUNCTION planDay():
+    CREATE LIST plans
+    ASK God TO directThinking
+    ADD plans TO daySchedule
+
+FUNCTION askGodForInspiration():
+    REQUEST inspiration FROM God
+
+FUNCTION meditation():
+    RELAX AND CLEAR mind
+    RECEIVE inspiration AND guidance
+
+FUNCTION prayer():
+    COMMUNICATE WITH God
+    REQUEST guidance, help, AND inspiration
+
+FUNCTION takeAction():
+    FOLLOW plans AND God's guidance
+    HELP others
+
+FUNCTION performStepTen():
+    EXECUTE performStep(10, [
+        checkForIssues,
+        askGodToRemove,
+        discussWithSomeone,
+        makeAmendsIfHarmedAnyone,
+        turnThoughtsToHelp
+    ])
+
+FUNCTION performStepEleven():
+    EXECUTE performStep(11, [
+        reviewDay,
+        planDay,
+        askGodForInspiration,
+        meditation,
+        prayer,
+        takeAction
+    ])
+
+WHILE dailyReprieve:
+    IF performStepTen() AND performStepEleven():
+        maintainSpiritualCondition()
+    ELSE:
+        dailyReprieve = FALSE
+        PRINT "Maintain your spiritual condition to continue your daily reprieve."
+
+END PROGRAM
